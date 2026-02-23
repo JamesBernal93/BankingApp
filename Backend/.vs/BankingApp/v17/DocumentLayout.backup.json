@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|src\\BankingApp.Application\\BankingApp.Application.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.application\\services\\bankaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|src\\BankingApp.Application\\BankingApp.Application.csproj|solutionrelative:src\\bankingapp.application\\services\\bankaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E5F6A7-B8C9-0123-DEF0-234567890123}|src\\BankingApp.Infrastructure\\BankingApp.Infrastructure.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.infrastructure\\repositories\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E5F6A7-B8C9-0123-DEF0-234567890123}|src\\BankingApp.Infrastructure\\BankingApp.Infrastructure.csproj|solutionrelative:src\\bankingapp.infrastructure\\repositories\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.domain\\repositories\\irepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|solutionrelative:src\\bankingapp.domain\\repositories\\irepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|src\\BankingApp.Application\\BankingApp.Application.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.application\\services\\transferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|src\\BankingApp.Application\\BankingApp.Application.csproj|solutionrelative:src\\bankingapp.application\\services\\transferservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.domain\\services\\transferdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|solutionrelative:src\\bankingapp.domain\\services\\transferdomainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.domain\\entities\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|solutionrelative:src\\bankingapp.domain\\entities\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.api\\controllers\\transferscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|solutionrelative:src\\bankingapp.api\\controllers\\transferscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|solutionrelative:src\\bankingapp.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|solutionrelative:src\\bankingapp.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|solutionrelative:src\\bankingapp.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E5F6A7-B8C9-0123-DEF0-234567890123}|src\\BankingApp.Infrastructure\\BankingApp.Infrastructure.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.infrastructure\\data\\bankingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E5F6A7-B8C9-0123-DEF0-234567890123}|src\\BankingApp.Infrastructure\\BankingApp.Infrastructure.csproj|solutionrelative:src\\bankingapp.infrastructure\\data\\bankingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|src\\BankingApp.Application\\BankingApp.Application.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.application\\interfaces\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|src\\BankingApp.Application\\BankingApp.Application.csproj|solutionrelative:src\\bankingapp.application\\interfaces\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|src\\BankingApp.Application\\BankingApp.Application.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.application\\dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2C3D4E5-F6A7-8901-BCDE-F12345678901}|src\\BankingApp.Application\\BankingApp.Application.csproj|solutionrelative:src\\bankingapp.application\\dtos\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D4E5F6-A7B8-9012-CDEF-123456789012}|src\\BankingApp.Domain\\BankingApp.Domain.csproj|solutionrelative:src\\bankingapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|solutionrelative:src\\bankingapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|c:\\users\\kpgdev\\documents\\pruebastecnica\\backend\\src\\bankingapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|src\\BankingApp.API\\BankingApp.API.csproj|solutionrelative:src\\bankingapp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Entities\\BankAccount.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Domain\\Entities\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Entities\\BankAccount.cs",
+              "RelativeToolTip": "src\\BankingApp.Domain\\Entities\\BankAccount.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAEwDoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:06:24.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "src\\BankingApp.API\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIA3wBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T02:47:54.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.API\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "src\\BankingApp.API\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwD0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T02:42:52.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Application\\Services\\BankAccountService.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Application\\Services\\BankAccountService.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Application\\Services\\BankAccountService.cs*",
+              "RelativeToolTip": "src\\BankingApp.Application\\Services\\BankAccountService.cs*",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T02:28:38.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repositories.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Infrastructure\\Repositories\\Repositories.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Infrastructure\\Repositories\\Repositories.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Infrastructure\\Repositories\\Repositories.cs*",
+              "RelativeToolTip": "src\\BankingApp.Infrastructure\\Repositories\\Repositories.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:35:13.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Repositories\\IRepositories.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Domain\\Repositories\\IRepositories.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Repositories\\IRepositories.cs",
+              "RelativeToolTip": "src\\BankingApp.Domain\\Repositories\\IRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:29:25.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransferService.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Application\\Services\\TransferService.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Application\\Services\\TransferService.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Application\\Services\\TransferService.cs",
+              "RelativeToolTip": "src\\BankingApp.Application\\Services\\TransferService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAawCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:30:03.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransfersController.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Controllers\\TransfersController.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.API\\Controllers\\TransfersController.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Controllers\\TransfersController.cs",
+              "RelativeToolTip": "src\\BankingApp.API\\Controllers\\TransfersController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:19:56.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransferDomainService.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Services\\TransferDomainService.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Domain\\Services\\TransferDomainService.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Services\\TransferDomainService.cs",
+              "RelativeToolTip": "src\\BankingApp.Domain\\Services\\TransferDomainService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:29:38.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Domain\\Entities\\Transaction.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Entities\\Transaction.cs",
+              "RelativeToolTip": "src\\BankingApp.Domain\\Entities\\Transaction.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA5wBUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:06:38.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DTOs.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Application\\DTOs\\DTOs.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Application\\DTOs\\DTOs.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Application\\DTOs\\DTOs.cs",
+              "RelativeToolTip": "src\\BankingApp.Application\\DTOs\\DTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:06:08.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IServices.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Application\\Interfaces\\IServices.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Application\\Interfaces\\IServices.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Application\\Interfaces\\IServices.cs",
+              "RelativeToolTip": "src\\BankingApp.Application\\Interfaces\\IServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:06:12.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BankingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Infrastructure\\Data\\BankingDbContext.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Infrastructure\\Data\\BankingDbContext.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Infrastructure\\Data\\BankingDbContext.cs",
+              "RelativeToolTip": "src\\BankingApp.Infrastructure\\Data\\BankingDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wDEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T02:07:29.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\BankingApp.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:19:48.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "src\\BankingApp.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T03:46:58.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\BankingApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\kpgdev\\Documents\\PruebasTecnica\\Backend\\src\\BankingApp.API\\Program.cs",
+              "RelativeToolTip": "src\\BankingApp.API\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T02:37:20.733Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

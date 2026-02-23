@@ -1,0 +1,11 @@
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\bin\Debug\net9.0\BankingApp.Domain.deps.json
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\bin\Debug\net9.0\BankingApp.Domain.dll
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\bin\Debug\net9.0\BankingApp.Domain.pdb
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\obj\Debug\net9.0\BankingApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\obj\Debug\net9.0\BankingApp.Domain.AssemblyInfoInputs.cache
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\obj\Debug\net9.0\BankingApp.Domain.AssemblyInfo.cs
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\obj\Debug\net9.0\BankingApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\obj\Debug\net9.0\BankingApp.Domain.dll
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\obj\Debug\net9.0\refint\BankingApp.Domain.dll
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\obj\Debug\net9.0\BankingApp.Domain.pdb
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Domain\obj\Debug\net9.0\ref\BankingApp.Domain.dll

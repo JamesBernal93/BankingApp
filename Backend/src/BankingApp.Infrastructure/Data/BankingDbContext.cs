@@ -46,5 +46,7 @@ public class BankingDbContext : DbContext
             entity.HasIndex(e => e.Email).IsUnique();
             entity.Property(e => e.PasswordHash).IsRequired();
         });
+        modelBuilder.Entity<Transaction>()
+       .HasKey(t => t.Id);
     }
 }

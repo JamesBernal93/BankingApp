@@ -5,6 +5,7 @@ namespace BankingApp.Domain.Repositories;
 public interface IBankAccountRepository
 {
     Task<BankAccount?> GetByIdAsync(Guid id, CancellationToken ct = default);
+    Task<BankAccount?> GetByIdNoTrackingAsync(Guid id, CancellationToken ct = default);
     Task<BankAccount?> GetByAccountNumberAsync(string accountNumber, CancellationToken ct = default);
     Task<IEnumerable<BankAccount>> GetByUserIdAsync(string userId, CancellationToken ct = default);
     Task<BankAccount> AddAsync(BankAccount account, CancellationToken ct = default);
@@ -36,4 +37,5 @@ public interface IUnitOfWork
     Task BeginTransactionAsync(CancellationToken ct = default);
     Task CommitTransactionAsync(CancellationToken ct = default);
     Task RollbackTransactionAsync(CancellationToken ct = default);
+    void DetachEntity<T>(T entity) where T : class;
 }

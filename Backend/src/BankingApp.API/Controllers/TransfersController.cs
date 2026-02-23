@@ -17,7 +17,6 @@ public class TransfersController : ControllerBase
 
     private string UserId => User.FindFirstValue(ClaimTypes.NameIdentifier)!;
 
-    /// <summary>Transfer money between accounts</summary>
     [HttpPost]
     [ProducesResponseType(204)]
     [ProducesResponseType(400)]

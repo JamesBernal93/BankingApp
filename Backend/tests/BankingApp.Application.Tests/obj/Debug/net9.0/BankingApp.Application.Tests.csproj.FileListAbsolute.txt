@@ -1,0 +1,6 @@
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\tests\BankingApp.Application.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_BankingApp.Application.Tests
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\tests\BankingApp.Application.Tests\obj\Debug\net9.0\BankingApp.Application.Tests.csproj.AssemblyReference.cache
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\tests\BankingApp.Application.Tests\obj\Debug\net9.0\BankingApp.Application.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\tests\BankingApp.Application.Tests\obj\Debug\net9.0\BankingApp.Application.Tests.AssemblyInfoInputs.cache
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\tests\BankingApp.Application.Tests\obj\Debug\net9.0\BankingApp.Application.Tests.AssemblyInfo.cs
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\tests\BankingApp.Application.Tests\obj\Debug\net9.0\BankingApp.Application.Tests.csproj.CoreCompileInputs.cache

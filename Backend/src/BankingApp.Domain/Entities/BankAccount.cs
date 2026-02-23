@@ -14,12 +14,14 @@ public class BankAccount
     public DateTime UpdatedAt { get; private set; }
     public string UserId { get; private set; }
 
-    private readonly List<Transaction> _transactions = new();
+    private List<Transaction> _transactions;
+
+    // Constructor privado para EF Core
+    private BankAccount()
+    {
+        _transactions = new List<Transaction>();
+    }
     public IReadOnlyCollection<Transaction> Transactions => _transactions.AsReadOnly();
-
-    // EF Core constructor
-    private BankAccount() { }
-
     public BankAccount(string ownerName, string email, decimal initialBalance, string userId)
     {
         if (string.IsNullOrWhiteSpace(ownerName))
@@ -29,6 +31,7 @@ public class BankAccount
         if (initialBalance < 0)
             throw new DomainException("Initial balance cannot be negative.");
 
+        _transactions = new List<Transaction>();
         Id = Guid.NewGuid();
         AccountNumber = GenerateAccountNumber();
         OwnerName = ownerName;

@@ -12,7 +12,6 @@ public class AuthController : ControllerBase
 
     public AuthController(IAuthService authService) => _authService = authService;
 
-    /// <summary>Register a new user</summary>
     [HttpPost("register")]
     [ProducesResponseType(typeof(AuthResponse), 200)]
     [ProducesResponseType(400)]
@@ -22,7 +21,6 @@ public class AuthController : ControllerBase
         return Ok(result);
     }
 
-    /// <summary>Login and get JWT token</summary>
     [HttpPost("login")]
     [ProducesResponseType(typeof(AuthResponse), 200)]
     [ProducesResponseType(401)]

@@ -22,7 +22,6 @@ public class AccountsController : ControllerBase
 
     private string UserId => User.FindFirstValue(ClaimTypes.NameIdentifier)!;
 
-    /// <summary>Create a new bank account</summary>
     [HttpPost]
     [ProducesResponseType(typeof(AccountResponse), 201)]
     public async Task<IActionResult> Create([FromBody] CreateAccountRequest request, CancellationToken ct)
@@ -31,7 +30,6 @@ public class AccountsController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = account.Id }, account);
     }
 
-    /// <summary>Get all accounts for current user</summary>
     [HttpGet]
     [ProducesResponseType(typeof(IEnumerable<AccountResponse>), 200)]
     public async Task<IActionResult> GetAll(CancellationToken ct)
@@ -40,7 +38,6 @@ public class AccountsController : ControllerBase
         return Ok(accounts);
     }
 
-    /// <summary>Get account by ID</summary>
     [HttpGet("{id:guid}")]
     [ProducesResponseType(typeof(AccountResponse), 200)]
     [ProducesResponseType(404)]
@@ -50,7 +47,6 @@ public class AccountsController : ControllerBase
         return Ok(account);
     }
 
-    /// <summary>Get account balance</summary>
     [HttpGet("{id:guid}/balance")]
     [ProducesResponseType(typeof(BalanceResponse), 200)]
     public async Task<IActionResult> GetBalance(Guid id, CancellationToken ct)
@@ -59,7 +55,6 @@ public class AccountsController : ControllerBase
         return Ok(balance);
     }
 
-    /// <summary>Deposit money into account</summary>
     [HttpPost("{id:guid}/deposit")]
     [ProducesResponseType(typeof(AccountResponse), 200)]
     public async Task<IActionResult> Deposit(Guid id, [FromBody] DepositRequest request, CancellationToken ct)
@@ -68,7 +63,6 @@ public class AccountsController : ControllerBase
         return Ok(result);
     }
 
-    /// <summary>Get transaction history for account</summary>
     [HttpGet("{id:guid}/transactions")]
     [ProducesResponseType(typeof(IEnumerable<TransactionResponse>), 200)]
     public async Task<IActionResult> GetTransactions(Guid id, CancellationToken ct)

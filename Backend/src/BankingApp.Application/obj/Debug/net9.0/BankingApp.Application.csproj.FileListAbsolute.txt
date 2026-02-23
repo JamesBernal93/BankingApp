@@ -1,0 +1,15 @@
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\BankingApp.Application.csproj.AssemblyReference.cache
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\BankingApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\BankingApp.Application.AssemblyInfoInputs.cache
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\BankingApp.Application.AssemblyInfo.cs
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\BankingApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\bin\Debug\net9.0\BankingApp.Application.deps.json
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\bin\Debug\net9.0\BankingApp.Application.dll
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\bin\Debug\net9.0\BankingApp.Application.pdb
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\bin\Debug\net9.0\BankingApp.Domain.dll
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\bin\Debug\net9.0\BankingApp.Domain.pdb
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\BankingA.078AA47D.Up2Date
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\BankingApp.Application.dll
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\refint\BankingApp.Application.dll
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\BankingApp.Application.pdb
+C:\Users\kpgdev\Documents\PruebasTecnica\Backend\src\BankingApp.Application\obj\Debug\net9.0\ref\BankingApp.Application.dll

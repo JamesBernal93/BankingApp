@@ -11,8 +11,8 @@ public class BankAccountRepository : IBankAccountRepository
     private readonly BankingDbContext _ctx;
     public BankAccountRepository(BankingDbContext ctx) => _ctx = ctx;
 
-    public async Task<BankAccount?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
-        await _ctx.BankAccounts.Include(a => a.Transactions).FirstOrDefaultAsync(a => a.Id == id, ct);
+    //public async Task<BankAccount?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
+    //    await _ctx.BankAccounts.Include(a => a.Transactions).FirstOrDefaultAsync(a => a.Id == id, ct);
 
     public async Task<BankAccount?> GetByAccountNumberAsync(string accountNumber, CancellationToken ct = default) =>
         await _ctx.BankAccounts.FirstOrDefaultAsync(a => a.AccountNumber == accountNumber, ct);
@@ -34,6 +34,15 @@ public class BankAccountRepository : IBankAccountRepository
 
     public async Task<bool> ExistsAsync(Guid id, CancellationToken ct = default) =>
         await _ctx.BankAccounts.AnyAsync(a => a.Id == id, ct);
+    public async Task<BankAccount?> GetByIdAsync(Guid id, CancellationToken ct = default) =>
+    await _ctx.BankAccounts
+        .Include(a => a.Transactions)
+        .FirstOrDefaultAsync(a => a.Id == id, ct);
+
+    // Nuevo método — sin Include, para operaciones de escritura
+    public async Task<BankAccount?> GetByIdNoTrackingAsync(Guid id, CancellationToken ct = default) =>
+        await _ctx.BankAccounts
+            .FirstOrDefaultAsync(a => a.Id == id, ct);
 }
 
 public class TransactionRepository : ITransactionRepository
@@ -99,9 +108,18 @@ public class UnitOfWork : IUnitOfWork, IDisposable
     {
         if (_transaction != null)
         {
-            await _transaction.CommitAsync(ct);
-            await _transaction.DisposeAsync();
-            _transaction = null;
+            try
+            {
+                await _transaction.CommitAsync(ct);
+                await _transaction.DisposeAsync();
+                _transaction = null;
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+            
         }
     }
 
@@ -114,6 +132,9 @@ public class UnitOfWork : IUnitOfWork, IDisposable
             _transaction = null;
         }
     }
-
+    public void DetachEntity<T>(T entity) where T : class
+    {
+        _ctx.Entry(entity).State = EntityState.Detached;
+    }
     public void Dispose() => _ctx.Dispose();
 }

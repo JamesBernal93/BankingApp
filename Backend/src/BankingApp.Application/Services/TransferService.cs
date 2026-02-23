@@ -3,6 +3,7 @@ using BankingApp.Application.Interfaces;
 using BankingApp.Domain.Exceptions;
 using BankingApp.Domain.Repositories;
 using BankingApp.Domain.Services;
+using System.Security.Principal;
 
 namespace BankingApp.Application.Services;
 
@@ -20,7 +21,6 @@ public class TransferService : ITransferService
 
     public async Task TransferAsync(TransferRequest request, string userId, CancellationToken ct = default)
     {
-        // Acquire semaphore to handle concurrency
         await _semaphore.WaitAsync(ct);
         try
         {
@@ -38,11 +38,24 @@ public class TransferService : ITransferService
             _transferDomainService.Transfer(source, destination, request.Amount, request.Description);
 
             await _uow.Accounts.UpdateAsync(source, ct);
+            await _uow.Transactions.AddAsync(source.Transactions.OrderByDescending(c => c.CreatedAt).FirstOrDefault());
+
             await _uow.Accounts.UpdateAsync(destination, ct);
-            await _uow.SaveChangesAsync(ct);
-            await _uow.CommitTransactionAsync(ct);
+            await _uow.Transactions.AddAsync(destination.Transactions.OrderByDescending(c => c.CreatedAt).FirstOrDefault());
+
+            try
+            {
+                await _uow.SaveChangesAsync(ct);
+                await _uow.CommitTransactionAsync(ct);
+
+            }
+            catch (Exception ex)
+            {
+
+                throw new AccountNotFoundException(request.DestinationAccountNumber);
+            }
         }
-        catch
+        catch (Exception ex)
         {
             await _uow.RollbackTransactionAsync(ct);
             throw;
